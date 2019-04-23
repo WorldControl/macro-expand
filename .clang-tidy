@@ -1,0 +1,17 @@
+---
+# Note: there must be no spaces before the '-', so put the comma first.
+Checks: '
+  *
+  ,-google-runtime-references
+  ,-llvm-namespace-comment
+  ,-google-readability-namespace-comments
+  ,-readability-braces-around-statements
+  ,-readability-implicit-bool-cast
+  ,-cppcoreguidelines-pro-bounds-array-to-pointer-decay
+  ,-llvm-include-order
+  ,-readability-named-parameter
+  ' # End Checks
+
+WarningsAsErrors: ''
+HeaderFilterRegex: 'include/macro-expand/.*'
+...

@@ -1,0 +1,10 @@
+**/testResults*
+**/*.mexw64
+**/*.mexa64
+**/*.mexmaci64
+**/*.asv
+bin/
+cmake/
+build/*
+!build/bin/
+*.ignore
